@@ -1,4 +1,6 @@
-./temp/
-./facebook-*/
-./facebook-*.zip
-__pycache__
+# Exclude all that is not needed
+**/temp/**
+!/example/temp
+**/facebook-*/**
+**/facebook-*.zip
+**/__pycache__/**
